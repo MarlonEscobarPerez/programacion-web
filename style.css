@@ -1,41 +1,115 @@
-.root{
---royal-blue-traditional: #03256cff;
---persian-blue: #2541b2ff;
---green-blue: #1768acff;
---aero: #06bee1ff;
---white: #ffffffff;
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./imagenes/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
 }
-
-.columna{
-    
-    width: 300px;
-    height: 750px;
-    border-style: solid;
-    border-color: rgba(211, 80, 80, 0.308);
-    background-color: #03256cff;
-    border-radius: 25px;
-    color:#ffffffff ;
-}
-
-h1,h2,h3,h4,h5{
-    color: #06bee1ff;
-}
-
 .separador{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+}
+.datos{
+    justify-content: right;
+    margin: 50px;
+    padding: 25px;
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+    border-color: rgba(81, 81, 83, 0.39);
+    background-color: rgba(81, 81, 83, 0.39);
+    border-radius: 25px;
+    color: black;
 }
 
-.contenedor{
-    width: 400px;
-    height: 100px;
-margin-top: 80px;
-margin-left: 20px;
+
+.fotografia{
+    padding: 50px;
+    width: 50px;
+    border-radius: 360px;
+}
+
+.IUE{
+    text-align: end;
+}
+
+.descripcion{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
     border-style: solid;
-    border-color: rgb(255, 255, 255);
-    background-color: rgb(255, 255, 255);
+    border-color: rgba(81, 81, 83, 0.39);
+    margin-top: 300px;
+    color:white;
+    background-color: rgba(81, 81, 83, 0.39);
+}
+
+.separador2{
+    display: flex;
+    margin-top: -250px;
+}
+
+.ficha{
+    margin:15px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    background-color: rgba(72, 72, 77, 0.308);
     border-radius: 25px;
-    color:black ;
+}
+
+.Consultas{
+    margin:15px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: rgba(91, 230, 87, 0.308);
+    background-color: rgba(91, 230, 87, 0.308);
+    border-radius: 25px;
+    color: white;
+}
+.Talleres{
+    margin:15px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: rgba(170, 88, 236, 0.308);
+    background-color: rgba(170, 88, 236, 0.308);
+    border-radius: 25px;
+    color: white;
+}
+.Retos{
+    margin:15px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: rgba(80, 185, 211, 0.308);
+    background-color: rgba(80, 185, 211, 0.308);
+    border-radius: 25px;
+    color: white;
+}
+
+.Diseños{
+    margin:15px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: rgba(211, 80, 80, 0.308);
+    background-color: rgba(211, 80, 80, 0.308);
+    border-radius: 25px;
+    color: white;
+}
+
+.fila{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .fondo{
