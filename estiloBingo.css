@@ -1,0 +1,108 @@
+:root{
+/* CSS HEX */
+--black: #010400ff;
+--black-olive: #30332eff;
+--snow: #fffbfcff;
+--verdigris: #62bbc1ff;
+--hollywood-cerise: #ec058eff;
+}
+
+body{
+    width: 100hw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    color: aliceblue;
+    background-color: #30332eff;
+    font-size:14px;
+
+}
+th{
+    background-color: #62bbc1ff;
+    width: 200px;
+    align-items:  center;
+    padding: 2px 20px 2px 20px;
+    font-size: 50px;
+}
+
+h1{
+    color: aqua;
+    font-size: 16px;
+}
+table{
+    background-color:#fffbfcff ;
+    width: 500px;
+    height: 500px;
+}
+td{
+    text-align: center;
+    color: aliceblue;
+    border-style: inset;
+    border-color:  aqua;
+}
+
+.columna{
+    width: 30%;
+    color: black;
+}
+.columna1{
+    width: 40%;
+    color: black;
+}
+
+
+.fila{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    gap: 15px;
+    background-color: var(--tea-green);
+}
+.caja{
+    text-align: center;
+    width: 250px;
+    margin: 15px;
+    color: #010400ff;
+    background-color: #fffbfcff;
+}
+.color1{
+    color: blue;
+    background-color: var(--celestial-blue);
+}
+.color2{
+    color: navy;
+    background-color: var(--celestial-blue);
+}
+.color3{
+    color: aquamarine;
+    background-color: var(--celestial-blue);
+}
+.color4{
+    color: chocolate;
+    background-color: var(--celestial-blue);
+}
+.caja:hover{
+    background-color: black;
+    border-style: solid;
+    border-color: aquamarine;
+    color: aliceblue;
+}
+hr{
+    color: #e03616ff;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: aliceblue;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px;
+    width: 25 px;
+}
+
