@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snack Conference 2022</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        header {
+            background-color: #0080ff;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 16px;
+        }
+        .boton {
+            background-color: #0080ff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .boton:hover {
+            background-color: #0050aa;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>¡Bienvenido a Snack Conference 2022!</h1>
+        <p>El evento de snacks más grande del año</p>
+    </header>
+    <div class="container">
+        <h2>Sobre el evento</h2>
+        <p>Snack Conference 2022 es el lugar donde los amantes de los snacks se reúnen para explorar las últimas tendencias en la industria de aperitivos. Únete a nosotros para conocer nuevos productos, escuchar a expertos y disfrutar de deliciosas muestras.</p>
+
+        <h2>Detalles del evento</h2>
+        <p><strong>Fecha:</strong> 15-18 de noviembre de 2022</p>
+        <p><strong>Lugar:</strong> Centro de Convenciones Snackville</p>
+
+        <h2>Registro</h2>
+        <p>¡Regístrate ahora para asegurar tu lugar en el evento! Las plazas son limitadas.</p>
+        <a href="#" class="boton" id="registro">Registrarse</a>
+    </div>
+
+
+
+
+    <script>
+        const registroBtn = document.getElementById("registro");
+
+registroBtn.addEventListener("click", function() {
+    alert("¡Te has registrado con éxito en Snack Conference 2022!");
+});
+    </script>
+</body>
+</html>
