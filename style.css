@@ -1,119 +1,210 @@
-body{
+*{
     margin: 0;
     padding: 0;
-    background: url(./imagenes/fondo.jpg);
-    background-size: cover;
-    background-position: center;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+
+}
+
+body{
+    text-align: center;
     font-family: sans-serif;
+
 }
-.separador{
+
+.head{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-}
-.datos{
-    justify-content: right;
-    margin: 50px;
-    padding: 25px;
-    width: 500px;
-    height: 500px;
-    border-style: solid;
-    border-color: rgba(81, 81, 83, 0.39);
-    background-color: rgba(81, 81, 83, 0.39);
-    border-radius: 25px;
-    color: black;
+    height: 63px;
+    background-color: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
 }
 
-
-.fotografia{
-    padding: 50px;
-    width: 50px;
-    border-radius: 360px;
-}
-
-.IUE{
-    text-align: end;
-}
-
-.descripcion{
-    margin: 10px;
-    padding: 10px;
-    border-radius: 15px;
-    border-style: solid;
-    border-color: rgba(81, 81, 83, 0.39);
-    margin-top: 300px;
-    color:white;
-    background-color: rgba(81, 81, 83, 0.39);
-}
-
-.separador2{
+.navbar{
     display: flex;
-    margin-top: -250px;
+    margin: 10px;
+
 }
 
-.ficha{
-    margin:15px;
-    padding: 10px;
-    width: 200px;
-    height: 200px;
-    border-style: solid;
-    background-color: rgba(72, 72, 77, 0.308);
-    border-radius: 25px;
+.logo{
+    margin-left: 30px;
 }
 
-.Consultas{
-    margin:15px;
-    padding: 10px;
-    width: 200px;
-    height: 200px;
-    border-style: solid;
-    border-color: rgba(91, 230, 87, 0.308);
-    background-color: rgba(91, 230, 87, 0.308);
-    border-radius: 25px;
-    color: white;
-}
-.Talleres{
-    margin:15px;
-    padding: 10px;
-    width: 200px;
-    height: 200px;
-    border-style: solid;
-    border-color: rgba(170, 88, 236, 0.308);
-    background-color: rgba(170, 88, 236, 0.308);
-    border-radius: 25px;
-    color: white;
-}
-.Retos{
-    margin:15px;
-    padding: 10px;
-    width: 200px;
-    height: 200px;
-    border-style: solid;
-    border-color: rgba(80, 185, 211, 0.308);
-    background-color: rgba(80, 185, 211, 0.308);
-    border-radius: 25px;
-    color: white;
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+
 }
 
-.Diseños{
-    margin:15px;
-    padding: 10px;
-    width: 200px;
-    height: 200px;
-    border-style: solid;
-    border-color: rgba(211, 80, 80, 0.308);
-    background-color: rgba(211, 80, 80, 0.308);
-    border-radius: 25px;
-    color: white;
+.navbar a{
+    display: block;
+    margin: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
 }
 
-.fila{
-    display: flex ;
-    flex-direction: row;
-    justify-content: space-around;
+.navbar a:hover{
+    background-color: #3b3b3b;
+    
 }
 
-.fondo{
-    padding: 10px;
-    background-color: #03256cff;
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.header{
+    height: 60vh !important;
+    background: url(img/fondo.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.title{
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    background:#9c27b0 ;
+
+}
+
+.btn:hover{
+    background: none;
+}
+
+.btn-home{
+    display: flex;
+
+}
+
+.btn-home a{
+    margin:0 10px;
+
+}
+
+.content{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau{
+    padding: 250px;
+    background: #1f1d1d;
+
+}
+.box-container{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+text-align: center;
+
+}
+
+.box-container .box{
+    height: 15rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0, 0, .5);
+    margin: 2rem;
+}
+
+.box-container .box i{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3{
+    font-size: 20px;
+    color: #9c27b0;
+}
+
+.box-container .box p{
+    padding: 0 15px;
+    font-size: 16px;
+
+}
+
+.about{
+    background: #171717;
+}
+
+.price{
+    background: url(img/fondo.jpg)no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.contact{
+padding: 150px;
+background: #171717;
+margin-top: 0;
+
+}
+
+@media(max-width:768px) {
+
+    .title{
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau{
+        height: 200vh;
+    }
+    .navbar{
+        display: none;
+    }
+}
+
+.link{
+    color: #fff;
+}
+
+section [id]{
+    scroll-margin-top: 300px;
+}
+
+html{
+    scroll-behavior: smooth;
 }
